@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/* CSS for tablet devices between 481 pixels and 960 pixels*/
+/* Added background colour, margin, text colour, padding, and alignment of the text to the header section */
+header {
+    background-color: #B38B92;
+    margin: 5px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+/* Go to the h2 tag within the body tag and centre the text and change the text colour, as well as a 5 pixel margin */
+body h2{
+    text-align: center;
+    color: #735A5E;
+    margin: 5px;
+}
+
+/* All body tags on each page has the background color #ffc7d1(pink) with a 5 pixel margin for mobile devices */
+body{
+    background-color: #ffc7d1;
+    margin: 5px;
+}
+/* centre the entire form and change the color to #735A5E */
+form{
+    text-align: center;
+    color: #735A5E;
+}
+
+/* Styled the background colour, text colour, height, width and float(whether text would be shifted a certain way */
+#article{
+    background-color: #735A5E;
+    color: #735A5E;
+    height: auto;
+    width: 100%
+    
+}
+/* Go to h2 within the header and make the font size 20 pixels */
+header h2{
+
+    font-size: 20px;
+
+}
+/* Go to the navigation links within the header and change the text colour, background colour, margin, padding, and remove any text decoration */
+header nav a{
+    color: white;
+    border-radius: 50%;
+    background-color: #ffc7d1;
+    margin: 3px;
+    padding: 4px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+/* When the navigation links are hovered over, change their background colour and change their opacity to 0.5 */
+header nav a:hover{
+    background-color: #d9a9b2;
+    opacity: .5;
+}
+/* Make all paragraphs have a 05px margin */
+p{
+    margin: 10px;
+    
+}
+/* When the box class is hovered over, change the background color, opacity and text colour */
+.box:hover{
+background-color:white;
+opacity:.5;
+color: #735A5E;
+}
+/* When the box class is hovered over, change the text colour of the paragraph*/
+.box:hover p{
+    color: #735A5E;
+}
+/* Align the footer to the centre of the page, make its height automatic, and change padding and margin */
+footer{
+     height: auto;
+     text-align: center;
+     padding: 10px;
+     margin-top: 30px;
+}
+/* Call the clear class in order to remove any inheritance where needed */
+.clear{
+    clear: both;
+}
+
+/* Go to the right column id and style the h4 tag within that */
+#right-column h4{
+    font-size: 45px;
+    color: #735A5E;
+    font-family: "Allura", cursive;
+    text-align: center;
+}
+/* Go to the right column id and style the h5 tag within that */
+#right-column h5{
+    font-size: 16px;
+    color: #735A5E;
+    margin-top: -60px;
+    text-align: center;
+}
+/* Style the image*/
+img{
+    width: 100%;
+    max-width: 240px;
+    height: 230px;
+    border-radius: 50%;
+    margin-top: 0px;
+    object-fit: cover;
+    object-position: 65%;
+}
+/*Style the figure that hold the image */
+figure
+{
+width:250px;
+height: 250px;
+max-width: 85%;
+border-radius: 50%;
+box-sizing: border-box;
+background-color:white;
+margin:20px auto;
+border:10px solid #735A5E;
+float: none;
+}
+
+/* Style the video and remove any floating properties */
+video {
+width: 90%;
+box-sizing: border-box;
+padding: 10px;
+margin: 10px auto;
+background-color:#735A5E;
+border:2px white solid;
+box-shadow: 5px 5px 5px #f2bdc7;
+float: none;
+
+}
+
+button {
+background-color:#ffc7d1;
+color:white;
+height:40px;
+border:2px white solid;
+box-shadow: 5px 5px 5px #d9a9b2;
+border-radius: 5px;
+}
+
+button:hover {
+background-color:#735A5E;
+color:#f2bdc7;
+height:40px;
+border:2px white solid;
+box-shadow: -10px -10px 5px #B38B92;
+border-radius: 5px;
+}
+
+.box{
+    background-color: #735A5E;
+    border-radius: 50%;
+    padding: 35px;
+    height: 180px;
+    width: 180px;
+    margin: 15px auto;
+    font-size: 13px;
+    text-align: center;
+    float: none;
+    color: #f2bdc7;
+}
+
+.box p{
+    color:#f2bdc7
+}
+#contact {
+background: linear-gradient(to bottom, #ffc7d1, #f2bdc7, #d9a9b2, #B38B92, #735A5E);
+
+}
+#pro{
+background: linear-gradient(-135deg, #f2bdc7, #d9a9b2 , #B38B92, #735A5E);
+
+
+}
+
+#intro{
+    background-color: #735A5E;
+    padding: 20px;
+    height: auto;
+    width: 90%;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 15px auto;
+    text-align: center;
+    color: white;
+    float: none;
+}
+

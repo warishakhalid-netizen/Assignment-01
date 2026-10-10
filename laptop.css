@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/* CSS for full-size devices greater than 961 pixels */
+/* Added background colour, margin, text colour, padding, and alignment of the text to the header section */
+header {
+    background-color: #B38B92;
+    margin: 20px;
+    top: 0px;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+/* Go to the h2 tag within the body tag and centre the text and change the text colour*/
+body h2{
+    text-align: center;
+    color: #735A5E;
+}
+/* All body tags on each page has the background color #ffc7d1(pink) */
+body{
+    background-color: #ffc7d1;
+}
+/* centre the entire form and change the color to #735A5E */
+form{
+    text-align: center;
+    color: #735A5E;
+}
+/* Styled the background colour, text colour, height, width and float(whether text would be shifted a certain way */
+#article{
+    background-color: #735A5E;
+    color: #735A5E;
+    height: 350px;
+    float: right;
+
+    
+}
+/* Go to h2 within the header and make the font size 30 pixels */
+header h2{
+    font-size: 30px;
+}
+/* Go to the navigation links within the header and change the text colour, background colour, margin, padding, and remove any text decoration */
+header nav a{
+    color: white;
+    border-radius: 50%;
+    background-color: #ffc7d1;
+    margin: 5px;
+    padding: 13px;
+    text-decoration: none;
+}
+/* When the navigation links are hovered over, change their background colour and change their opacity to 0.5 */
+header nav a:hover{
+    background-color: #d9a9b2;
+    opacity: .5;
+}
+/* Make all paragraphs have a 20px margin */
+p{
+    margin: 20px;
+    
+}
+/* When the box class is hovered over, change the background color, opacity and text colour */
+.box:hover{
+background-color:white;
+opacity:.5;
+color: #735A5E;
+}
+/* When the box class is hovered over, change the text colour of the paragraph*/
+.box:hover p{
+    color: #735A5E;
+}
+/* Align the footer to the centre of the page, make its height automatic, and change padding and margin */
+footer{
+     height: 80px;
+     text-align: center;
+     padding: auto;
+     margin-top: 130px;
+}
+/* Call the clear class in order to remove any inheritance where needed */
+.clear{
+    clear: both;
+}
+
+/* Go to the right column id and style the h4 tag within that */
+#right-column h4{
+    font-size: 90px;
+    color: #735A5E;
+    font-family: "Allura", cursive;
+}
+/* Go to the right column id and style the h5 tag within that */
+#right-column h5{
+    font-size: 20px;
+    color: #735A5E;
+    margin-top: -60px;
+}
+/* Style the image*/
+img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-top: auto;
+    object-fit: cover;
+    object-position: 65%;
+}
+/*Style the figure that hold the image */
+figure
+{
+width:350px;
+height: 350px;
+border-radius: 50%;
+background-color:white;
+margin:40px;
+border:10px solid #735A5E;
+float: left;
+}
+
+/* Style the video and remove any floating properties */
+video {
+width: 400px;
+height: 300px;
+padding: 15px;
+margin: 15px;
+background-color:#735A5E;
+border:2px white solid;
+box-shadow: 10px 10px 5px #f2bdc7;
+float: none;
+}
+
+/* Float the video ID right */
+#video{
+    float: right;
+}
+
+/* Style the button tag */
+button {
+background-color:#ffc7d1;
+color:white;
+height:40px;
+border:2px white solid;
+box-shadow: 10px 10px 5px #d9a9b2;
+border-radius: 5px;
+margin: 10px;
+float: right;
+text-align: center;
+}
+
+/* Apply style to the button after it is hovered over */
+button:hover {
+background-color:#735A5E;
+color:#f2bdc7;
+height:40px;
+border:2px white solid;
+box-shadow: -10px -10px 5px #B38B92;
+border-radius: 5px;
+}
+
+.box{
+    background-color: #735A5E;
+    border-radius: 50%;
+    padding: 35px;
+    height: 250px;
+    width: 250px;
+    margin: 45px;
+    text-align: center;
+    float: left;
+    color: #f2bdc7;
+}
+
+.box p{
+    color:#f2bdc7
+}
+#contact {
+background: linear-gradient(to bottom, #ffc7d1, #f2bdc7, #d9a9b2, #B38B92, #735A5E);
+}
+
+#pro{
+background: linear-gradient(-135deg, #f2bdc7, #d9a9b2 , #B38B92, #735A5E);
+}
+
+/* Apply style to the intro ID*/
+#intro{
+    background-color: #735A5E;
+    padding: 30px;
+    height: 150px;
+    width: 550px;
+    border-radius: 50%;
+    padding: 50px;
+    padding-bottom: 10px;
+    margin: 25px;
+    text-align: center;
+    float: inline-start;
+    color: white;
+    float: right;
+}
+

@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+header {
+    background-color: #B38B92;
+    margin: 20px;
+    top: 0px;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+body h2{
+    text-align: center;
+    color: #735A5E;
+}
+
+body{
+    background-color: #ffc7d1;
+}
+
+form{
+    text-align: center;
+    color: #735A5E;
+}
+
+#article{
+    background-color: #735A5E;
+    color: #735A5E;
+    height: 350px;
+    float: right;
+
+    
+}
+
+header h2{
+
+    font-size: 30px;
+
+}
+
+header nav a{
+    color: white;
+    border-radius: 50%;
+    background-color: #ffc7d1;
+    margin: 5px;
+    padding: 13px;
+    text-decoration: none;
+}
+header nav a:hover{
+    background-color: #d9a9b2;
+    opacity: .5;
+}
+
+p{
+    margin: 20px;
+    
+}
+
+.box:hover {
+background-color:white;
+opacity:.5;
+}
+
+footer{
+     height: 80px;
+     text-align: center;
+     padding: auto;
+     margin-top: 130px;
+}
+
+.clear{
+    clear: both;
+}
+
+
+#right-column h4{
+    font-size: 90px;
+    color: #735A5E;
+    font-family: "Allura", cursive;
+}
+
+#right-column h5{
+    font-size: 20px;
+    color: #735A5E;
+    margin-top: -60px;
+}
+
+img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-top: auto;
+    object-fit: cover;
+    object-position: 65%;
+}
+
+figure
+{
+width:350px;
+height: 350px;
+border-radius: 50%;
+background-color:white;
+margin:40px;
+border:10px solid #735A5E;
+float: left;
+}
+
+video {
+width: 400px;
+padding: 15px;
+margin: 15px;
+background-color:#735A5E;
+border:2px white solid;
+box-shadow: 10px 10px 5px #f2bdc7;
+float: left;
+
+}
+
+button {
+background-color:#ffc7d1;
+color:white;
+height:40px;
+border:2px white solid;
+box-shadow: 10px 10px 5px #d9a9b2;
+border-radius: 5px;
+}
+.box{
+    background-color: #735A5E;
+    border-radius: 50%;
+    padding: 30px;
+    height: 250px;
+    width: 250px;
+    margin: 45px;
+    text-align: center;
+    float: left;
+}
+#contact {
+background: linear-gradient(to top, #ffc7d1, #f2bdc7, #d9a9b2, #B38B92, #735A5E);
+
+}
+
+#intro{
+    background-color: #735A5E;
+    padding: 30px;
+    height: 150px;
+    width: 550px;
+    border-radius: 50%;
+    padding: 50px;
+    padding-bottom: 10px;
+    margin: 25px;
+    text-align: center;
+    float: inline-start;
+    color: white;
+    float: right;
+}
+
+
+
