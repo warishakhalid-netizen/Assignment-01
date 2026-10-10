@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* CSS for mobile devices less than 480 pixels */
+/* CSS for tablet devices between 481 pixels and 960 pixels*/
 /* Added background colour, margin, text colour, padding, and alignment of the text to the header section */
 header {
     background-color: #B38B92;
