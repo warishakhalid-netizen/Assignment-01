@@ -145,7 +145,7 @@ box-shadow: 10px 10px 5px #f2bdc7;
 float: left;
 
 }
-
+/* Style the button tag */
 button {
 background-color:#ffc7d1;
 color:white;
@@ -154,7 +154,7 @@ border:2px white solid;
 box-shadow: 10px 10px 5px #d9a9b2;
 border-radius: 5px;
 }
-
+/* Style the button when it is hovered over */
 button:hover {
 background-color:#735A5E;
 color:#f2bdc7;
@@ -163,6 +163,7 @@ border:2px white solid;
 box-shadow: -10px -10px -5px #B38B92;
 border-radius: 5px;
 }
+/* Style the class box */
 .box{
     background-color: #735A5E;
     border-radius: 50%;
@@ -175,19 +176,20 @@ border-radius: 5px;
     color: #f2bdc7;
     font-size: 14px;
 }
-
+/* Style the paragrpah within the box class */
 .box p{
     color:#f2bdc7
 }
+/* Style the contact page with a linear gradient */
 #contact {
 background: linear-gradient(to bottom, #ffc7d1, #f2bdc7, #d9a9b2, #B38B92, #735A5E);
 
 }
-
+/* Apply an angled gradient to the pro id only */
 #pro{
 background: linear-gradient(-135deg, #f2bdc7, #d9a9b2 , #B38B92, #735A5E);
 }
-
+/* Style the introduction ID */
 #intro{
     background-color: #735A5E;
     padding: 25px;

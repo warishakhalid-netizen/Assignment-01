@@ -149,7 +149,7 @@ border:2px white solid;
 box-shadow: -10px -10px 5px #B38B92;
 border-radius: 5px;
 }
-
+/* Style the class box */
 .box{
     background-color: #735A5E;
     border-radius: 50%;
@@ -161,14 +161,15 @@ border-radius: 5px;
     float: left;
     color: #f2bdc7;
 }
-
+/* Style the contact page with a linear gradient */
 .box p{
     color:#f2bdc7
 }
+/* Style the contact page with a linear gradient */
 #contact {
 background: linear-gradient(to bottom, #ffc7d1, #f2bdc7, #d9a9b2, #B38B92, #735A5E);
 }
-
+/* Apply an angled gradient to the pro id only */
 #pro{
 background: linear-gradient(-135deg, #f2bdc7, #d9a9b2 , #B38B92, #735A5E);
 }

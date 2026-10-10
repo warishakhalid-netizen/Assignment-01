@@ -39,13 +39,5 @@ The CSS files are 'mobile.css', 'tablet.css', and 'laptop.css'. I used media att
 - Git and GitHub
 - GitHub Pages
 
-## Testing
-- HTML validation: [Enter your result]
-- CSS validation: [Enter your result]
-- Link checking: [Enter your result]
-- WAVE accessibility checking: [Enter your result]
-- Responsive testing: [Describe the screen sizes you tested]
-
-## Links
-- **Live website:** [Paste your GitHub Pages URL]
-- **GitHub repository:** [Paste your public repository URL]
+## Link
+- **GitHub repository:** [https://github.com/warishakhalid-netizen/Assignment-01]
